@@ -3,18 +3,19 @@
 可在初始化时配置vuex，UI框架，css预处理语言  
 使用
 ```
-npm i qn-cli -g
-```
 来下载到全局
 
 使用
 ```
-qn init
+npm install 
 ```
-或者
+安装脚手架依赖包
+
+
+使用
 ```
-qn i
+node bin/qn.js init
 ```
-来初始化项目
+来初始化项目并且生成依赖包
 
 使用qn avxf来添加vuex相关的模板文件到store文件夹下的modules文件夹下
