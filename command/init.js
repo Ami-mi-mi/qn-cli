@@ -65,7 +65,7 @@ module.exports = ()=>{
     inquirer.prompt(prompts).then(answer=>{ // 通过用户的输入进行各种操作
         console.log(chalk.green('开始初始化文件\n'))
         console.log(chalk.gray('初始化中...'))
-        const gitUrl = 'https://gitee.com/liaoct/vue-temp.git'
+        const gitUrl = 'https://github.com/Ami-mi-mi/vue-template.git'
         if (fs.existsSync(answer.projectName)) {
             fs.rmSync(answer.projectName, { recursive: true, force: true })
         }
